@@ -30,7 +30,7 @@ This project is designed to help you learn modern C++ concepts through practical
 1. Clone the repository:
 
    Make sure to `--recurse-submodules`:
-   ```
+   ```sh
    git clone --recurse-submodules https://github.com/jclosure/cpp23-learning-project.git
    cd cpp23-learning-project
    ```
@@ -42,22 +42,31 @@ This project is designed to help you learn modern C++ concepts through practical
    ```
 
 2. Build:
-   ```
+
+   ```sh
    ./scripts/build.sh
    ```
 
-5. Rebuild and test:
+2. Rebuild and run:
+
+   ```sh
+   ./scripts/run.sh
    ```
+
+5. Rebuild and test:
+
+   ```sh
    ./scripts/test.sh
    ```
 
 6. Running specific tests:
+   
    Everything:
-   ```
+   ```sh
    ./build/tests/all_tests
    ```
    Individual tests:
-   ```
+   ```sh
    ./build/tests/test_algorithms
    ./build/tests/test_data_structures
    ./build/tests/test_loops
