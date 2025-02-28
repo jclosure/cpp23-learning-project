@@ -3,6 +3,7 @@
 #include <map>
 #include <set>
 #include <unordered_map>
+#include "data_structure_examples.h"
 
 namespace data_structure_examples {
 

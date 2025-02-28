@@ -2,6 +2,7 @@
 #include <iostream>
 #include <numeric>
 #include <vector>
+#include "algorithm_examples.h"
 
 namespace algorithm_examples
 {

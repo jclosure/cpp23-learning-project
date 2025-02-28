@@ -5,6 +5,7 @@
 #include <unordered_map>
 #include <algorithm>
 #include <numeric>
+#include "syntax_examples.h"
 
 namespace syntax_examples {
 
