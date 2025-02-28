@@ -1,0 +1,14 @@
+{
+    "name": "cpp23-learning-project",
+    "version-string": "0.1.0",
+    "dependencies": [
+        "sdl3",
+        "glew",
+        "glm",
+        "imgui",
+        "stb",
+        "tinyobjloader",
+        "tinygltf",
+        "gtest"
+    ]
+  }
