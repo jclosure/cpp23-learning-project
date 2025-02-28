@@ -28,10 +28,17 @@ This project is designed to help you learn modern C++ concepts through practical
 ## Setup Instructions
 
 1. Clone the repository:
-   Make sure to `--recurse-submodules`
+
+   Make sure to `--recurse-submodules`:
    ```
    git clone --recurse-submodules https://github.com/jclosure/cpp23-learning-project.git
    cd cpp23-learning-project
+   ```
+
+   Configure git this repo with your info (modify as needed):
+   ```sh
+   git config user.name "Your Name"
+   git config user.email "youre@email.org"
    ```
 
 2. Build:

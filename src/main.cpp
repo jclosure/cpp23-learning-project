@@ -1,4 +1,5 @@
 #include <iostream>
+#include "game/window.h"
 
 int main() {
     std::cout << "Welcome to the C++23 Learning Project!" << std::endl;
@@ -9,6 +10,8 @@ int main() {
     // demonstrateLoops();
     // demonstrateDataStructures();
     // demonstrateAlgorithms();
+
+    auto result = game::launchWindow();
 
     return 0;
 }

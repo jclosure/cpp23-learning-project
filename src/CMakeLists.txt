@@ -14,3 +14,10 @@ endforeach()
 add_library(cpp23_learning_project_lib STATIC ${SOURCES})
 
 target_sources(cpp23_learning_project_lib PRIVATE ${SOURCES})
+
+# Add dependencies
+find_package(GLEW REQUIRED)
+find_package(SDL3 CONFIG REQUIRED)
+
+target_link_libraries(cpp23_learning_project_lib PRIVATE GLEW::GLEW)
+target_link_libraries(cpp23_learning_project_lib PRIVATE SDL3::SDL3)

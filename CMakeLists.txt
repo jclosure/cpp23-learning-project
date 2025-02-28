@@ -20,3 +20,6 @@ add_subdirectory(src)
 enable_testing()
 # Add subdirectory for tests
 add_subdirectory(tests)
+
+# Add our library target from src
+target_link_libraries(cpp23_learning_project PRIVATE cpp23_learning_project_lib)
