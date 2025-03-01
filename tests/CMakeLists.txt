@@ -22,6 +22,9 @@ target_link_libraries(test_data_structures GTest::gtest GTest::gtest_main cpp23_
 add_executable(test_algorithms test_algorithms.cpp)
 target_link_libraries(test_algorithms GTest::gtest GTest::gtest_main cpp23_learning_project_lib)
 
+add_executable(test_game test_random_numbers.cpp)
+target_link_libraries(test_game GTest::gtest GTest::gtest_main cpp23_learning_project_lib)
+
 # Create a single executable for all tests
 add_executable(all_tests test_syntax.cpp test_loops.cpp test_data_structures.cpp test_algorithms.cpp)
 target_link_libraries(all_tests GTest::gtest GTest::gtest_main cpp23_learning_project_lib)
@@ -34,3 +37,6 @@ add_test(NAME SyntaxTest COMMAND test_syntax)
 add_test(NAME LoopsTest COMMAND test_loops)
 add_test(NAME DataStructuresTest COMMAND test_data_structures)
 add_test(NAME AlgorithmsTest COMMAND test_algorithms)
+
+# Game related tests
+add_test(NAME RandomNumberGeneratorTest COMMAND test_game)
