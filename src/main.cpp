@@ -7,9 +7,12 @@
 #include "game/window.h"
 #include "loops/loop_examples.h"
 #include "syntax/syntax_examples.h"
+#include "variables/binary_calculator.hpp"
 
 int main() {
-    std::cout << "Welcome to the C++23 Learning Project!" << std::endl;
+    std::cout << "------------------------------------------" << std::endl;
+    std::cout << "  Welcome to the C++23 Learning Project!  " << std::endl;
+    std::cout << "------------------------------------------" << std::endl;
 
     // Here you can call functions from other modules to demonstrate various C++
     // concepts. For example:
@@ -33,10 +36,23 @@ int main() {
     // fighterGame.Start();
 
     // Uncomment the line below to run the iterator examples
-    data_structure_examples::list_example();
-    data_structure_examples::iterate_list();
-    data_structure_examples::iterate_set();
-    data_structure_examples::iterate_map();
-    data_structure_examples::iterate_vector();
+    // data_structure_examples::list_example();
+    // data_structure_examples::iterate_list();
+    // data_structure_examples::iterate_set();
+    // data_structure_examples::iterate_map();
+    // data_structure_examples::iterate_vector();
+
+    // Uncomment the line below to run the binary calculator
+    // binary_calculator::printBinary(10);
+    // binary_calculator::printBase2(10);
+    // std::cout << "----------------" << std::endl;
+    // binary_calculator::printHex(10);
+    // binary_calculator::printBase16(10);
+    // std::cout << "----------------" << std::endl;
+    // binary_calculator::printOct(10);
+    // binary_calculator::printBase8(10);
+    // std::cout << "----------------" << std::endl;
+    // binary_calculator::printBase64(10);
+
     return 0;
 }
