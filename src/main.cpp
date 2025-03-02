@@ -29,8 +29,14 @@ int main() {
     // game::launchWindow();
 
     // Uncomment the line below to start the one_d_fighter game
-    one_d_fighter::Game fighterGame(100, 100);
-    fighterGame.Start();
+    // one_d_fighter::Game fighterGame(100, 100);
+    // fighterGame.Start();
 
+    // Uncomment the line below to run the iterator examples
+    data_structure_examples::list_example();
+    data_structure_examples::iterate_list();
+    data_structure_examples::iterate_set();
+    data_structure_examples::iterate_map();
+    data_structure_examples::iterate_vector();
     return 0;
 }
